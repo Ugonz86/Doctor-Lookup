@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html>
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-<head></head>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="backend.js"></script>
+  <title>Doctor Lookup</title>
+</head>
 <body>
   <div class="header">
     <h3>DOCTOR LOOKUP</h3>
   </div>
   <div class="container">
-    <div id="searchDiv">
+    <!-- <div id="searchDiv">
       <h1>Find doctors in your network</h1>
       <div class="form-group">
-        <input type="text" placeholder="Search by condition, symptom or doctor name" id="searchByIllness">
-        <button type="submit">Search</button>
+        <input type="text" placeholder="Search by condition, symptom or doctor name">
+        <button id="searchByName" type="submit">Search</button>
       </div>
-    </div>
-    <div id="resultsDiv">
+    </div> -->
 
+    <div id="practiceDiv">
+      <h1>Search by practice or select one</h1>
+      <div class="form-group">
+        <input type="text" id="practices" placeholder="Search by condition, symptom or doctor name">
+        <button id="practiceButton" type="button">Search</button>
+      </div>
+
+    </div>
+
+
+    <div id="resultDiv">
+      <div class="errors"></div>
+      <div class="showList">
+        <ol id="listDisplay"></ol>
+      </div>
     </div>
   </div>
 </body>
 <div class="footer">
-  <p><center>Copyright (C) by Uriel Gonzalez, 2019.</center></p>
+  <p><em><center>Copyright (C) by Uriel Gonzalez, 2019.</center></em></p>
 </div>
 </html>
