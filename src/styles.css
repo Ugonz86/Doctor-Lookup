@@ -4,6 +4,39 @@ body {
   color: #595959;
 }
 
+input {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border:0; outline:none;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+h3 {
+  color: #82c3c5;
+  letter-spacing: 5px;
+}
+
+button {
+  height: 50px;
+  width: 75px;
+  border-radius: 10px;
+  border: none;
+  color: #fcffff;
+  background-color: #b21c1c;
+  border:0; outline:none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff0000;
+  color: #fcffff;
+  font-style: italic;
+}
+
 .header {
   position: fixed;
   background-color: #82c3c5;
@@ -32,69 +65,39 @@ body {
   bottom: 0;
   text-align: center;
   color: #d5fffe;
+  font-size: 15px;
   font-weight: lighter;
+}
+
+.showList {
+  background-color: #b7f4f3;
+  text-align: center;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #queryDiv {
   background-color: #b7f4f3;
   text-align: center;
   margin-top: 150px;
-  /* border-radius: 20px; */
   width: 700px;
   height: 200px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 25px;
+  /* border-radius: 10px; */
 }
 
 #resultDiv {
   display: none;
   margin-top: 150px;
+  /* border-radius: 10px; */
 }
 
 #cross {
   color: #b21c1c;
   font-size: 150%;
-}
-.showList {
-  background-color: #b7f4f3;
-  text-align: center;
-  width: 700px;
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  /* margin-bottom: 150px; */
-  padding-top: 10px;
-  padding-bottom: 10px;
-  overflow: scroll;
-  /* border-radius: 20px; */
-}
-
-input {
-  width: 300px;
-  height: 50px;
-  border-radius: 20px;
-  border:0; outline:none;
-  text-align: center;
-}
-
-h3 {
-  color: #82c3c5;
-  letter-spacing: 5px;
-}
-
-button {
-  height: 50px;
-  width: 75px;
-  border-radius: 20px;
-  border: none;
-  color: #fcffff;
-  background-color: #b21c1c;
-  border:0; outline:none;
-}
-
-button:hover {
-  background-color: #ff0000;
-  color: #fcffff;
-  font-style: italic;
 }
