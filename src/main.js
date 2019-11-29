@@ -16,7 +16,9 @@ $(document).ready(function() {
     })();
   });
   $("#goHome").click(function() {
-    location.reload();
+    $("#resultDiv").hide();
+    $("#queryDiv").slideDown("slow");
+    $("#listDisplay").html('');
   });
 });
 
