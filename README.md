@@ -4,13 +4,17 @@
 #### A website where a user can search for a doctor locally based on keywords or medical practices. The website gathers data from BetterDoctor API.
 
 ## **Specs**
-* _1. A user can search for a specific medical practice and receive a list of doctors in Seattle related to that inputted practice with some information._
+* _1. A user can input an illness or symptom in the search bar and receive a list of doctors related to the inputted word with their contact information and availability._
 
 ## **Tests**
 
 | Spec | Input | Output |
 | :----------- | :----------------------| :----------- |
-| **Find a doctor in Seattle by practice**  | surgeon | Phillip Downer - Seattle Orthopedic Center - Orthopedists, Sports Medicine, Surgeons - 2409 N 45th St Seattle, WA 98103 - Phone number(206) 633-8101 - websiteseattleortho.com |
+| **A user can input an illness or symptom in the search bar and receive a list of doctors related to the inputted word with their contact information and availability.**  | cancer | Gordon Buduhan Phone: 2062156801 http://www.swedish.org/ 1101 Madison St Ste 850 Seattle Washington 98104 Accepting New Patients: Yes |
+
+## **API Documentation**
+
+* _https://developer.betterdoctor.com/documentation15#/_
 
 ## **Setup/Installation Requirements**
 
