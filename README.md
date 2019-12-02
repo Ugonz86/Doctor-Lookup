@@ -6,6 +6,8 @@
 ## **Specs**
 * _1. A user can input an illness or symptom in the search bar and receive a list of doctors related to the inputted word with their contact information and availability._
 
+## **Tests**
+
 | Spec | Input | Output |
 | :----------- | :----------------------| :----------- |
 | **A user can input an illness or symptom in the search bar and receive a list of doctors related to the inputted word with their contact information and availability.**  | cancer | Gordon Buduhan Phone: 2062156801 http://www.swedish.org/ 1101 Madison St Ste 850 Seattle Washington 98104 Accepting New Patients: Yes |
@@ -20,6 +22,9 @@
 * _cd Desktop_
 * _Git Clone https://github.com/Ugonz86/Doctor-Lookup.git_
 * _cd Doctor-Lookup_
+* _touch .env (To create .env file in root directory)_
+* _Visit betterdoctorapi.com and create your API key._
+* _Store API key to .env file. (API_KEY = 'enter api key here')_
 * _atom . (or code .)_
 * _npm install_
 * _npm run build_
